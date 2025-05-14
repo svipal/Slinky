@@ -1,0 +1,67 @@
+Created GraphicsDevice_DX12 (128 ms)
+Adapter: AMD Radeon 780M Graphics
+
+[wi::initializer] Initializing Wicked Engine, please wait...
+Version: 0.71.764
+Platform: Windows
+
+CPU: AMD Ryzen 7 8845HS w/ Radeon 780M Graphics
+	Features available: SSE; SSE 2; SSE 3; SSE 4.1; SSE 4.2; AVX; AVX 2; AVX 512; 
+	Features used: SSE; SSE 2; SSE 3; SSE 4.1; AVX; 
+
+RAM: 27.8 GB
+
+No embedded shaders found, shaders will be compiled at runtime if needed.
+	Shader source path: C:/WickedEngine/Samples/Template_Windows/../../WickedEngine/shaders/
+	Shader binary path: C:/WickedEngine/Samples/Template_Windows/shaders/hlsl6/
+
+wi::jobsystem Initialized with 16 cores in 0.68 ms
+	High priority threads: 15
+	Low priority threads: 14
+	Streaming threads: 1
+
+wi::input Initialized (0 ms)
+wi::physics Initialized [Jolt Physics 5.3.0] (0 ms)
+wi::lua Initialized [Lua 5.3] (2 ms)
+wi::TrailRenderer Initialized (5 ms)
+wi::font Initialized (7 ms)
+wi::GPUBVH Initialized (8 ms)
+wi::image Initialized (8 ms)
+wi::texturehelper Initialized (9 ms)
+wi::gpusortlib Initialized (14 ms)
+wi::audio Initialized [XAudio2] (28 ms)
+wi::HairParticleSystem Initialized (45 ms)
+wi::Ocean Initialized (47 ms)
+SuballocateGPUBuffer created buffer block with size: 256.0 MB, with page size: 64.0 KB, page count: 4096
+Scene::Serialize took 0.03 seconds
+wi::EmittedParticleSystem Initialized (99 ms)
+wi::renderer Initialized (128 ms)
+
+[wi::initializer] Wicked Engine Initialized (129 ms)
+Created envprobe depth buffer for request
+	Resolution = 64 * 64 * 6
+	Sample Count = 1
+	Mip Levels = 1
+	Format = D16_UNORM
+	Memory = 48.0 KB
+
+Created envprobe render target for request
+	Resolution = 64 * 64 * 6
+	Sample Count = 1
+	Mip Levels = 3
+	Format = R11G11B10_FLOAT
+	Memory = 126.0 KB
+
+Created envprobe filtering target for request
+	Resolution = 64 * 64 * 6
+	Sample Count = 1
+	Mip Levels = 3
+	Format = R11G11B10_FLOAT
+	Memory = 126.0 KB
+
+BlockCompress created a new raw block texture to fit request: BC6H_UF16 (64, 64)
+	Format = R32G32B32A32_UINT
+	Resolution = 64 * 64
+	Array Size = 6
+	Memory = 384.0 KB
+
